@@ -3,6 +3,7 @@
 console.log(drivers);
 
 function findMatching(drivers, name) {
+  returndrivers.filter(function(driver) {return driver.toUpperCase() == name.toUpperCase()});
 }
 
 function fuzzyMatch(drivers, string) {
